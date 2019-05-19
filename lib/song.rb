@@ -46,8 +46,6 @@ class Song
   end 
   
   def self.create_from_filename(filename)
-    find_the_song = self.all.detect {|x|x.name == 
-
   end 
   
   
