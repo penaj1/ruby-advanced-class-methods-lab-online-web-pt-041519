@@ -43,15 +43,11 @@ class Song
   end 
   
   def self.new_from_filename
-    find_the_song = self.all.detect {|x|x.name == 
-
   end 
   
   def self.create_from_filename(filename)
-    file = self.new
-    file.name = new_file
-    file.save
-    file
+    find_the_song = self.all.detect {|x|x.name == 
+
   end 
   
   
