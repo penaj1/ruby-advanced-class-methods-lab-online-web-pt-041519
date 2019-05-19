@@ -43,7 +43,7 @@ class Song
   end 
   
   def self.new_from_filename
-    find
+    find_the_song
 
   end 
   
